@@ -1,0 +1,157 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+body {
+	margin: 0;
+	background-color: #383838;
+}
+
+#header{
+	height: 100px;
+	padding: 5px;
+	padding-bottom: 0;
+	background: #6CB13F url(../img/BambRock1.png) no-repeat right;
+}
+#header h1 img{
+	position: relative;
+	top: 20px;
+}
+	h1{
+		font-family: "Lucida Console";
+		font-size: 3em;
+		margin-left: 20px;
+		margin-top: -25px;
+		color: #1E6600;
+		padding-bottom: 0;
+	}
+
+	#reheader{
+		height:30px;
+		width: 100%;
+		text-align: right;
+		padding-top:8px;
+	}
+			#contactfaq{
+			padding: 5px;
+			float:right;
+			margin: auto;
+			}
+			#contactfaq a{
+				text-decoration: none;
+				color: white;
+			}
+				.lcf{
+					border: solid #D74085;
+					border-width: 1.5px;
+					font-size: 1em;
+				}
+			
+			#login {
+				color:#C8F4B0;
+				margin-bottom:0;
+				float:right;
+			}
+#bodycontainer{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #ACF187;
+	outline: 1px solid #D74085;
+	height: 500px;
+	clear: both;
+
+	}
+ul li{
+	margin:0;
+	padding:0;
+	list-style: none;
+	border-radius: 3px;
+}
+.mlink{
+	text-decoration: none;
+}
+.mainmenus{
+	padding-left:10px;
+}
+	.mainmenus li{
+		padding:10px; 
+		background-color: #FFD2C4;
+		border-bottom: 2px solid #FF5D4C;
+	}
+	span{
+	  border: solid transparent;
+	  border-left-color: #2F558E;
+	  border-width: 9px;
+	  font-size: .25em;
+	}
+	
+#menucontainer{
+	height: inherit;
+	width: 25%;
+	float: left;
+	background:url(../img/rocks2.gif) no-repeat bottom;
+	background-size: 213px 273px;
+	}
+	
+	.submenu2{
+		display: none;
+		width: 150px;
+		
+		}
+		.submenu2 li a{
+			color: #F0373E;
+			padding: 2px;
+			display: block;
+			}
+		.submenu2 li a:hover {
+			padding: 2px;
+			font-weight: bold;
+			color: red;
+			}
+
+	.submenu3{
+		display: none;
+		width: 150px;
+		}
+		.submenu3 li a{
+			color: #F0373E;
+			padding: 2px;
+			display: block;
+		}
+		.submenu3 li a:hover {
+			padding: 2px;
+			font-weight: bold;
+			color: red;
+		}
+	.submenu4{
+		display: none;
+		width: 150px;
+	}
+		.submenu4 li a{
+			color: #F0373E;
+			padding: 2px;
+			display: block;
+		}
+		.submenu4 li a:hover {
+			padding: 2px;
+			font-weight: bold;
+			color: red;
+		}
+
+#dispcontent{
+	height: inherit;
+	width: 72.00%;
+	background: url("../img/bamboo.jpg") center;
+	float: left;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+}
+
+#footer{
+	height: 5%;
+	padding-top: 20px;
+	text-align: center;
+	border-top: 2px solid #D74085;
+	background-color: #F8B5D3;
+	clear: both;
+}
